@@ -1,7 +1,21 @@
+import { Button } from '@yacka/ui-kit';
+
 export default async function Index() {
   return (
-    <div className="bg-slate-600 h-screen w-full flex items-center justify-center ">
-      <h1 className="text-white text-6xl">Hello world</h1>
+    <div className="h-full flex-1 flex-col space-y-8 p-8 md:flex">
+      <div className="flex items-center justify-between space-y-2">
+        <div>
+          <h2 className="text-2xl font-bold tracking-tight">
+            Welcome to web-app!
+          </h2>
+          <p className="text-muted-foreground">
+            A project to show how to integrate shadcn/ui with Next.js and Nx
+          </p>
+        </div>
+      </div>
+      <div>
+        <Button>Click me!</Button>
+      </div>
     </div>
   );
 }
