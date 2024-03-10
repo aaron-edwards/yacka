@@ -1,0 +1,8 @@
+{
+  "name": "yacka",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/yacka",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
